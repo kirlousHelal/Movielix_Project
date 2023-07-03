@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gg"
+    tools:context=".MainPage3">
+    <ImageView
+        android:id="@+id/action1"
+        android:layout_width="117dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/action"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/action"
+        tools:ignore="MissingClass,MissingConstraints,UsingOnClickInXml" />
+
+    <ImageView
+        android:id="@+id/drama1"
+        android:layout_width="117dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/romantic"
+        app:layout_constraintStart_toEndOf="@+id/comdy1"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/animation1"
+        android:layout_width="117dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/animation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="Action"
+        android:textColor="#0B0808"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Animation"
+        android:textColor="#0C0A0A"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/animation1" />
+
+    <ImageView
+        android:id="@+id/comdy1"
+        android:layout_width="117dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/comedy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/comedy"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:text="Drama"
+        android:textColor="#050505"
+        android:textSize="28sp"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/drama1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Comedy"
+        android:textColor="#0B0A0A"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comdy1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

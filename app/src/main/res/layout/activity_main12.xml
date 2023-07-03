@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/res3"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Register">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:visibility="invisible"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/et_Firstname"-->
+    <!--            android:layout_width="140dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_marginTop="40dp"-->
+    <!--            android:layout_marginRight="10dp"-->
+    <!--            android:background="@drawable/vw_shape"-->
+    <!--            android:hint="@string/first_name"-->
+    <!--            android:paddingLeft="30dp"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textColorHint="#B3B0B0" />-->
+
+    <!--        <EditText-->
+    <!--            android:id="@+id/et_Lastname"-->
+    <!--            android:layout_width="140dp"-->
+    <!--            android:layout_height="40dp"-->
+    <!--            android:layout_marginLeft="30dp"-->
+    <!--            android:layout_marginTop="40dp"-->
+    <!--            android:background="@drawable/vw_shape"-->
+    <!--            android:hint="@string/last_name"-->
+    <!--            android:paddingLeft="30dp"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textColorHint="#B3B0B0" />-->
+    <!--    </LinearLayout>-->
+
+    <EditText
+        android:id="@+id/et_usernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/vw_shape"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#B3B0B0" />
+    <EditText
+        android:id="@+id/et_EmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/vw_shape"
+        android:hint="@string/email_address"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#B3B0B0" />
+
+
+    <EditText
+        android:id="@+id/et_passwordResgister"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/vw_shape"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#B3B0B0" />
+
+    <EditText
+        android:id="@+id/et_RepasswordResgister"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/vw_shape"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#B3B0B0" />
+
+    <EditText
+        android:id="@+id/et_Phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/vw_shape"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:paddingLeft="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#B3B0B0" />
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/shpe_btn"
+        android:text="@string/resgister" />
+
+    <TextView
+        android:id="@+id/txt_AlreadyHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="I already have account..!"
+        android:textColor="@color/purple_500"
+        android:textSize="15sp" />
+
+</LinearLayout>

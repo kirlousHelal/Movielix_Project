@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#231B1B"
+    tools:context=".Reset">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Rest The Password"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tx_emailrest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:text="Test"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/et_newpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_password"
+        android:layout_marginTop="40dp"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@drawable/vw_shape"/>
+    <EditText
+        android:id="@+id/et_confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/vw_shape"/>
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Confirm"
+        android:background="@drawable/shpe_btn"/>
+
+</LinearLayout>

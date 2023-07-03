@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Contactus">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:onClick="Joe">
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/test"/>
+
+            <TextView
+                android:id="@+id/Name1"
+                android:layout_width="305dp"
+                android:layout_height="match_parent"
+                android:text="Youssef Mohamedy"
+                android:paddingTop="25dp"
+                android:textSize="30dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:onClick="Nada">
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/_nada"
+                />
+
+            <TextView
+                android:id="@+id/Name2"
+                android:layout_width="303dp"
+                android:layout_height="match_parent"
+                android:text="Nada Tarek"
+                android:paddingTop="25dp"
+                android:textSize="38dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:onClick="Eman">
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/_eman"/>
+
+            <TextView
+                android:id="@+id/Name3"
+                android:layout_width="298dp"
+                android:layout_height="match_parent"
+                android:text="Eman Ibrahim"
+                android:paddingTop="25dp"
+                android:textSize="38dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:onClick="Kiro">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/_kiro" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="299dp"
+                android:layout_height="match_parent"
+                android:text="Kirellos Helal"
+                android:paddingTop="25dp"
+                android:textSize="38dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100sp" >
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/_171555501_1156807928076915_9213400240050619066"
+                android:onClick="Marina"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="296dp"
+                android:layout_height="match_parent"
+                android:onClick="Marina"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:text="Marina Fawzy"
+                android:textColor="#fff"
+                android:textSize="38dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="100sp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:onClick="Peter"
+                app:srcCompat="@drawable/_18773160_3128623403903233_2140218663325715015_n" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="299dp"
+                android:layout_height="99dp"
+                android:onClick="Peter"
+                android:paddingLeft="20dp"
+                android:paddingTop="25dp"
+                android:text="Peter Ghaly"
+                android:textColor="#fff"
+                android:textSize="38dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

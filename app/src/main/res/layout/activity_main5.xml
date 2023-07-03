@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainPage2">
+
+    <Button
+        android:id="@+id/inthecinema"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="196dp"
+
+        android:text="In the cinema"
+        android:textSize="30sp"
+        app:backgroundTint="#59B3AB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/online"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="368dp"
+
+
+        android:text="Online"
+
+        android:textSize="30sp"
+        app:backgroundTint="#6AB6AF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainPage1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/teal_700">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@drawable/aflam"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/move"
+            android:layout_width="196dp"
+            android:layout_height="89dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Moves"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#171717">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cinema"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/cinemas"
+            android:layout_width="208dp"
+            android:layout_height="101dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Cinema"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/teal_700">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/support"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:id="@+id/supports"
+            android:layout_width="213dp"
+            android:layout_height="103dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:text="Support"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Movielix</string>
+    <string name="movie">موسي-Mousa \n 11/12/2021 \n خيال علمي</string>
+    <string name="email_address">Email Address</string>
+    <string name="log_in">Log In</string>
+    <string name="resgister">Create an Account</string>
+    <string name="forget_your_password">Forget Your Password ?</string>
+    <string name="create_an_account">create an account!</string>
+    <string name="meta_ideas_logo">meta ideas logo</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="Resetpassword">Reset Password?</string>
+    <string name="enter_your_registered_email_below_to_receive_passoword_reset_instruction">Enter your registered email below to receive passoword reset instruction</string>
+    <string name="froget_your_password">Froget Your Password?</string>
+    <string name="username">Username</string>
+    <string name="new_password">New Password</string>
+</resources>
